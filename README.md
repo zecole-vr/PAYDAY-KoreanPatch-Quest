@@ -7,9 +7,7 @@
 
 ## 다운로드와 설치
 
-[Releases](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases)에서
-**PAYDAY_Quest_Windows_v0.1.3.exe**를 받으세요. 공개된 릴리스가 없으면 아직 다운로드할 수 없습니다.
-GitHub의 Code → Download ZIP은 소스 코드이며 설치 파일이 아닙니다.
+[Windows 설치 EXE 다운로드 · 70.5 MB](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/download/v0.1.3/PAYDAY_Quest_Windows_v0.1.3.exe) · [v0.1.3 릴리스 및 체크섬](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.3)
 
 1. EXE를 실행하고 Quest 3를 USB로 연결합니다.
 2. 헤드셋에서 USB 디버깅을 허용하고 게임을 완전히 종료합니다.
