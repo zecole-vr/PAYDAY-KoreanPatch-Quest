@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+bundle/data/
+userdata/
+.tools/
+*.obb*
+*.apk
+*.sav
+*.log
+*.exe
+*.bin
+*.tmp

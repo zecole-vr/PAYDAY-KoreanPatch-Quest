@@ -1,0 +1,18 @@
+name: 설치 오류 / 버그 제보
+description: 설치·복구 또는 게임 표시 문제를 알려 주세요.
+title: "[버그] "
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: 게임 빌드 / 패치 버전 / Windows 버전
+      placeholder: "130623 / 0.1.3 / Windows 11"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: 문제와 재현 순서
+      description: 오류 문구와 관련 화면을 첨부해 주세요. 개인 정보는 가려 주세요.
+    validations:
+      required: true

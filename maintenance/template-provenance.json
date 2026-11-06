@@ -1,0 +1,16 @@
+{
+  "source_path": "Local maintained snapshot: 2026-09-16/ekdn/work/distribution/standalone-public-125",
+  "release": "1.2.5",
+  "repository": "https://github.com/zecole-vr/IntoTheRadius2-Quest-KoreanPatch",
+  "files": {
+    "launcher.py": "4e5ada2d9d50c90c055382a8d13b2356ec0e865003d34c91d1f024201888af00",
+    "quest_patch.py": "8e828720c1474ab4a605b464a5a99c742952eadc4e8ccee07024cb06e27ab6a2",
+    "bundle/ui/index.html": "a122140d1d132bf2922d123c55e7b77d253260b648e4cd138b31d5ae537bf78b",
+    "bundle/ui/style.css": "bedd65767e38c3fc5fe50068d983d3f842b75f52699c028b08d4ea29dd816b42",
+    "bundle/ui/app.js": "1ee1c6407d2a1a73e9fb359b907af31f96b2c721c02c0b71c62a8de50dcb2f61"
+  },
+  "reuse": "HTML/CSS layout, WebView bridge, pinned ADB downloader, copy/data/zero reconstruction and hash verification. PAYDAY transaction engine extends prior locally tested implementation.",
+  "verified_remote_tag": "v1.2.5",
+  "remote_tag_commit": "9245d8022655eaa1eba420cfd16facdc7a89e419",
+  "note": "로컬 파일을 직접 재사용했습니다. 파일 정체성은 SHA-256으로 기록하며 원격 태그와 전체 소스 동일성을 추정하지 않습니다."
+}

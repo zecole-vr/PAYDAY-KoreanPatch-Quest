@@ -1,0 +1,17 @@
+name: 번역 수정 요청
+description: 미번역·오역·글자 깨짐을 알려 주세요.
+title: "[번역] "
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 게임 빌드 / 패치 버전
+    validations:
+      required: true
+  - type: textarea
+    id: text
+    attributes:
+      label: 문구와 나타나는 위치
+      description: 관련 화면과 원하는 수정 표현이 있으면 함께 알려 주세요.
+    validations:
+      required: true
