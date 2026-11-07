@@ -1,0 +1,20 @@
+{
+  "release": "0.1.4",
+  "game_build": 131115,
+  "release_url": "https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.4",
+  "published_at": "2026-11-07T02:18:43Z",
+  "anonymous_download": true,
+  "anonymous_sidecar_download": true,
+  "tls_validation_enabled": true,
+  "sha256": "d09df9c5dfc7e00a7a4ebab48f4c8abcfac76aeee78c068ee246f48c9dcd3307",
+  "bytes": 70456424,
+  "executed": true,
+  "launcher_latest": "v0.1.4",
+  "installed_version": "v0.1.4",
+  "old_0_1_3_detects_update": true,
+  "initial_connection_errors": [
+    "Python certificate issuer verification error",
+    "GitHub HTTP 504"
+  ],
+  "retry_result": "Windows HTTPS download and subsequent normal Python/native launcher queries succeeded"
+}

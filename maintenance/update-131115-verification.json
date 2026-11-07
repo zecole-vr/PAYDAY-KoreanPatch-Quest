@@ -19,7 +19,9 @@
   "remaining": [
     "Actual new party-alert display for all co-op scenarios",
     "Loot alert and all missions/long gameplay",
-    "New clean Windows PC, physical USB/power failure",
-    "Public release download/latest recognition after publication"
-  ]
+    "New clean Windows PC, physical USB/power failure"
+  ],
+  "public_release_verified": true,
+  "old_launcher_update_detection": true,
+  "public_release_url": "https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.4"
 }
