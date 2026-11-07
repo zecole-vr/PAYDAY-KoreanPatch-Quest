@@ -5,7 +5,7 @@ import quest_patch as e
 sha=lambda b:hashlib.sha256(b).hexdigest()
 class Device:
  def __init__(self,m):
-  self.m=m;self.main,self.back=e.paths(m);self.files={self.main:b'ORIGINAL', '/data/base.apk':b'APK'};self.running=False;self.version=130623;self.model='Quest 3';self.fail=None;self.mutations=[];self.serial='TEST';self.start_after_push=False
+  self.m=m;self.main,self.back=e.paths(m);self.files={self.main:b'ORIGINAL', '/data/base.apk':b'APK'};self.running=False;self.version=131115;self.model='Quest 3';self.fail=None;self.mutations=[];self.serial='TEST';self.start_after_push=False
  def exists(self,p):return p in self.files
  def hash(self,p,missing_ok=False):
   if p not in self.files:
@@ -39,7 +39,7 @@ class EngineTests(unittest.TestCase):
  def setUp(self):
   self.tmp=tempfile.TemporaryDirectory();self.r=Path(self.tmp.name);self.w=self.r/'state';self.w.mkdir();self.b=self.r/'bundle';(self.b/'data').mkdir(parents=True)
   payload=b'PATCHED!';(self.b/'data/payload.bin').write_bytes(payload);recipe=b'{"format":1,"operations":[["data",0,8]]}';(self.b/'data/recipe.json').write_bytes(recipe)
-  self.m=dict(format=1,game='PAYDAY',package='com.fasttravelgames.calippo',main_name='main.130623.com.fasttravelgames.calippo.obb',backup_suffix='.zecole-original-130623',main_bytes=8,source_sha256=sha(b'ORIGINAL'),target_sha256=sha(payload),source_apk_sha256=sha(b'APK'),supported_models=['Quest 3'],version_code=130623,platform='quest-standalone',release='0.1.3',tool_build='test',recipe_sha256=sha(recipe),payload_sha256=sha(payload),compatible_previous={sha(b'PREVIOUS'):'0.1.2'})
+  self.m=dict(format=1,game='PAYDAY',package='com.fasttravelgames.calippo',main_name='main.131115.com.fasttravelgames.calippo.obb',backup_suffix='.zecole-original-131115',main_bytes=8,source_sha256=sha(b'ORIGINAL'),target_sha256=sha(payload),source_apk_sha256=sha(b'APK'),supported_models=['Quest 3'],version_code=131115,platform='quest-standalone',release='0.1.4',tool_build='test',recipe_sha256=sha(recipe),payload_sha256=sha(payload),compatible_previous={sha(b'PREVIOUS'):'0.1.2'})
   (self.b/'manifest.json').write_text(json.dumps(self.m));self.d=Device(self.m);self.old_say=e.say;e.say=lambda x:None
  def tearDown(self):e.say=self.old_say;self.tmp.cleanup()
  def install(self):e.install(self.d,self.m,self.w,self.b)

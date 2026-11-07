@@ -23,7 +23,8 @@ https://github.com/unicode-org/icu/tree/release-64-2
 
 ## 설치기 구성 요소
 기준 공통 런처: IntoTheRadius2-Quest-KoreanPatch 릴리스 1.2.5.
-실제 참조 경로·파일 해시·릴리스 태그는 유지보수 기록 template-provenance.json 참조.
+PAYDAY 배포판 v0.1.3의 검증된 설치기와 UI를 재사용했습니다.
+실제 참조 경로·파일 해시·릴리스 태그는 유지보수 기록을 참조해 주세요.
 설치기 코드에만 MIT 적용: licenses/INSTALLER-MIT.txt.
 이 코드 라이선스를 번역문·게임 자산·폰트·패치 데이터 전체에 적용하지 않습니다.
 

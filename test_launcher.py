@@ -17,11 +17,11 @@ class LatestTests(unittest.TestCase):
  def test_semantic_latest(self):
   s=self.check([self.rel('0.9.0'),self.rel('0.10.0')]);self.assertEqual(s['latest'],'v0.10.0');self.assertTrue(s['newer_release'])
  def test_exclude_prerelease_wrong_platform_missing_checksum(self):
-  s=self.check([self.rel('0.1.3'),self.rel('9.0.0',pre=True),self.rel('8.0.0',platform='Steam_Windows'),self.rel('7.0.0',checksum=False)]);self.assertEqual(s['latest'],'v0.1.3')
+  s=self.check([self.rel('0.1.4'),self.rel('9.0.0',pre=True),self.rel('8.0.0',platform='Steam_Windows'),self.rel('7.0.0',checksum=False)]);self.assertEqual(s['latest'],'v0.1.4')
  def test_empty_not_error(self):self.assertEqual(self.check([])['latest'],'공개 배포본 없음')
  def test_failed_then_retry(self):
   with patch.object(launcher.urllib.request,'urlopen',side_effect=urllib.error.URLError('offline')):self.api._latest()
-  s=self.api.get_state();self.assertEqual(s['latest'],'버전 확인 실패');self.assertFalse(s['newer_release']);self.assertEqual(self.check([self.rel('0.1.3')])['latest'],'v0.1.3')
+  s=self.api.get_state();self.assertEqual(s['latest'],'버전 확인 실패');self.assertFalse(s['newer_release']);self.assertEqual(self.check([self.rel('0.1.4')])['latest'],'v0.1.4')
  def test_no_downgrade(self):self.assertFalse(self.check([self.rel('0.1.2')])['newer_release'])
  def test_foreign_url_rejected(self):
   r=self.rel('99.0.0');r['assets'][0]['browser_download_url']='https://example.com/a.exe';self.assertEqual(self.check([r])['latest'],'공개 배포본 없음')

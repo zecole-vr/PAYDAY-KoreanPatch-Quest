@@ -1,20 +1,20 @@
 {
-  "release": "0.1.3",
-  "patch_version": "0.1.3",
-  "installer_version": "0.1.3",
-  "tool_build": "20261106.10",
+  "release": "0.1.4",
+  "patch_version": "0.1.4",
+  "installer_version": "0.1.4",
+  "tool_build": "20261107.11",
   "package": "com.fasttravelgames.calippo",
-  "version_code": 130623,
+  "version_code": 131115,
   "version_name": "0.1",
   "platform": "quest-standalone",
   "installer_host": "windows-x64",
   "supported_models": [
     "Quest 3"
   ],
-  "target_sha256": "e316e97b14b89510e98809ad6b667501420823bc9c4395444e720527228c13b0",
-  "source_sha256": "0398061bb7010f43636055f2c1ff2341ebcfe6d6ff0d492c6d635a16f053eaa0",
-  "main_bytes": 3968280799,
-  "asset": "PAYDAY_Quest_Windows_v0.1.3.exe",
-  "sha256": "e7db6ed92abef4432a83c66728ebe84449508f6321c87e51f74a50ba342ca737",
-  "bytes": 70464531
+  "target_sha256": "3c1f23daf4d3349a1301428aae15fe41852e466273782b83c7a40617c3ff7aec",
+  "source_sha256": "97732e60dee09fa6ad47b1918ab3b745c1e8404478839bd5c19edd9d4868d13b",
+  "main_bytes": 3968297513,
+  "asset": "PAYDAY_Quest_Windows_v0.1.4.exe",
+  "sha256": "d09df9c5dfc7e00a7a4ebab48f4c8abcfac76aeee78c068ee246f48c9dcd3307",
+  "bytes": 70456424
 }

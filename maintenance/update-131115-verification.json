@@ -1,0 +1,25 @@
+{
+  "patch_version": "0.1.4",
+  "game_build": 131115,
+  "tool_build": "20261107.11",
+  "engine_tests_passed": 16,
+  "launcher_tests_passed": 7,
+  "notification_semantic_cases": 234,
+  "user_confirmed_dlc_price_and_new_buttons": true,
+  "actual_engine_install_restore_reinstall_verified": true,
+  "pc_backups_130623_and_131115_verified": true,
+  "frozen_exe_ui_verified": true,
+  "frozen_bundle_matches_build": true,
+  "new_strings": 4,
+  "new_resource_keys": 2,
+  "resource_entries": 3403,
+  "ported_runtime_constants": 212,
+  "installed_sha256": "3c1f23daf4d3349a1301428aae15fe41852e466273782b83c7a40617c3ff7aec",
+  "exe_sha256": "d09df9c5dfc7e00a7a4ebab48f4c8abcfac76aeee78c068ee246f48c9dcd3307",
+  "remaining": [
+    "Actual new party-alert display for all co-op scenarios",
+    "Loot alert and all missions/long gameplay",
+    "New clean Windows PC, physical USB/power failure",
+    "Public release download/latest recognition after publication"
+  ]
+}

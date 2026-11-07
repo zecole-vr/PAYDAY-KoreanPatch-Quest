@@ -2,12 +2,22 @@
 
 제작자 · **제콜 (ZECOLE)** · [YouTube](https://www.youtube.com/@zecole)
 
-**Meta Quest 단독판 / Quest 3 / 게임 빌드 130623**용 비공식 한국어 패치입니다.
-패치 **v0.1.3**, Windows 설치 도구 **v0.1.3 (20261106.10)**.
+**Meta Quest 단독판 / Quest 3 / 게임 빌드 131115**용 비공식 한국어 패치입니다.
+패치 **v0.1.4**, Windows 설치 도구 **v0.1.4 (20261107.11)**.
+
+## v0.1.4 업데이트
+
+게임 빌드 **131115**에 대응했습니다. 새 일시정지 메뉴의 **작전 포기·작전 재시작**과
+**파티장이 작전을 포기하거나 재시작했다는 알림**을 번역했습니다.
+기존 임무·가방 알림은 새 실행 스크립트 구조에 맞춰 적용했습니다.
+
+게임을 빌드 131115로 업데이트한 뒤 v0.1.4를 설치해 주세요.
+게임 빌드 130623용 설치기는 [v0.1.3 릴리스](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.3)에서 받을 수 있습니다.
+원본 백업과 설치 기록은 게임 빌드별 폴더에 보관합니다.
 
 ## 다운로드와 설치
 
-[Windows 설치 EXE 다운로드 · 70.5 MB](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/download/v0.1.3/PAYDAY_Quest_Windows_v0.1.3.exe) · [v0.1.3 릴리스 및 체크섬](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.3)
+[Windows 설치 EXE 다운로드 · 70.5 MB](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/download/v0.1.4/PAYDAY_Quest_Windows_v0.1.4.exe) · [v0.1.4 릴리스 및 체크섬](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.4)
 
 1. EXE를 실행하고 Quest 3를 USB로 연결합니다.
 2. 헤드셋에서 USB 디버깅을 허용하고 게임을 완전히 종료합니다.

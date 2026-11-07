@@ -166,7 +166,7 @@ def build(source, output, root=ROOT):
         raise PatchError('원본과 결과 경로는 달라야 합니다.')
     say('원본 main OBB 체크섬 확인 중...')
     if source.stat().st_size != m['main_bytes'] or sha256(source) != m['source_sha256']:
-        raise PatchError('지원하는 PAYDAY Quest 빌드 130623 원본이 아닙니다. 수정하거나 설치하지 않았습니다.')
+        raise PatchError('지원하는 PAYDAY Quest 빌드 131115 원본이 아닙니다. 수정하거나 설치하지 않았습니다.')
     if output.exists():
         if sha256(output) == m['target_sha256']:
             say('이미 검증된 결과 파일이 있습니다.')
@@ -299,7 +299,7 @@ def version_check(adb,m):
     if model not in m['supported_models']:raise PatchError('이번 배포판은 검증된 Quest 3만 지원합니다.')
     text=adb.shell('dumpsys','package',m['package'])[0]
     match=re.search(r'\bversionCode=(\d+)',text)
-    if not match or int(match.group(1))!=m['version_code']:raise PatchError('지원 게임은 PAYDAY Quest 빌드 130623입니다. 다른 버전은 변경하지 않습니다.')
+    if not match or int(match.group(1))!=m['version_code']:raise PatchError('지원 게임은 PAYDAY Quest 빌드 131115입니다. 다른 버전은 변경하지 않습니다.')
     locations=adb.shell('pm','path',m['package'])[0].splitlines()
     if len(locations)!=1 or not locations[0].startswith('package:'):raise PatchError('게임 APK 구성이 달라 중단합니다.')
     if adb.hash(locations[0][8:])!=m['source_apk_sha256']:raise PatchError('게임 APK가 검증된 버전과 다릅니다. 변경하지 않습니다.')
