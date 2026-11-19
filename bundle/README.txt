@@ -1,10 +1,10 @@
-PAYDAY: Aces High — Quest 한국어 패치 v0.1.4
+PAYDAY: Aces High — Quest 한국어 패치 v0.1.5
 제작자 · 제콜 (ZECOLE) / https://www.youtube.com/@zecole
 저장소: https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest
 
 지원 대상
-Meta Quest 단독판 / Quest 3 / 게임 내부 버전 0.1, 빌드 131115
-패치 버전 0.1.4 / Windows 설치 도구 0.1.4 / 빌드 20261107.11
+Meta Quest 단독판 / Quest 3 / 게임 내부 버전 1.1, 빌드 131336
+패치 버전 0.1.5 / Windows 설치 도구 0.1.5 / 빌드 20261119.1
 Steam/PCVR, Android 휴대폰 설치, 다른 게임 빌드와 기기는 지원하지 않습니다.
 
 필수 환경
@@ -23,7 +23,7 @@ Quest의 현재 게임·기존 백업 외에 교체용 파일 약 3.7 GiB가 추
 실제 남은 공간을 작업 전에 확인하며, 부족하면 설치하지 않습니다.
 
 설치
-1. PAYDAY_Quest_Windows_v0.1.4.exe를 실행합니다.
+1. PAYDAY_Quest_Windows_v0.1.5.exe를 실행합니다.
 2. Quest를 USB로 연결하고 헤드셋 안에서 USB 디버깅을 허용합니다.
 3. 게임을 완전히 종료합니다. 설치기는 게임을 강제 종료하지 않습니다.
 4. 자동으로 기기를 찾으면 '한글패치 설치'를 누릅니다.
@@ -46,19 +46,19 @@ Quest의 현재 게임·기존 백업 외에 교체용 파일 약 3.7 GiB가 추
 기기 원본 백업과 PC 백업은 모두 해시를 확인하며, 알 수 없는 파일·게임 업데이트본은 덮어쓰지 않습니다.
 
 보관 위치
-%LOCALAPPDATA%\ZECOLE\PAYDAY_Aces_High\Quest\<기기 식별자>\131115
+%LOCALAPPDATA%\ZECOLE\PAYDAY_Aces_High\Quest\<기기 식별자>\131336
 원본 original.obb, 설치기록 installation.json, 교체기록 transaction.json, history 하위 기록.
 공통 로그: %LOCALAPPDATA%\ZECOLE\PAYDAY_Aces_High\Quest\logs
 ADB: 같은 Quest 폴더 아래 .tools. EXE의 임시 압축 해제 폴더에는 백업을 보관하지 않습니다.
-기기 원본: main.131115.com.fasttravelgames.calippo.obb.zecole-original-131115
+기기 원본: main.131336.com.fasttravelgames.calippo.obb.zecole-original-131336
 
 게임 업데이트와 기존 백업
-v0.1.4는 게임 빌드 131115용입니다. 빌드 130623용 v0.1.3은 이전 릴리스에서 받을 수 있습니다.
-게임을 131115로 업데이트한 뒤 이 EXE로 설치하세요. 실제 새 원본의 체크섬을 확인합니다.
-131115의 원본·설치 기록은 기기별 131115 폴더에 보관합니다.
-130623의 PC 백업·설치 기록은 해당 빌드 복구용으로 보존하며, 새 빌드의 원본은 별도로 검증합니다.
-이 버전의 기기 원본 이름 끝에는 .zecole-original-131115가 붙습니다.
-기존 130623 게임 파일에 v0.1.4를 직접 적용할 수 없습니다.
+v0.1.5는 게임 빌드 131336(게임 버전 1.1)용입니다. 빌드 131115용은 v0.1.4, 130623용은 v0.1.3입니다.
+게임을 131336으로 업데이트한 뒤 이 EXE로 설치하세요. 실제 새 원본의 체크섬을 확인합니다.
+131336의 원본·설치 기록은 기기별 131336 폴더에 보관합니다.
+이전 빌드(131115, 130623)의 PC 백업·설치 기록은 해당 빌드 복구용으로 보존하며, 새 빌드의 원본은 별도로 검증합니다.
+이 버전의 기기 원본 이름 끝에는 .zecole-original-131336이 붙습니다.
+이전 빌드 게임 파일에 v0.1.5를 직접 적용할 수 없습니다.
 
 중단된 작업
 USB를 다시 연결하고 게임을 종료한 후 설치기를 실행합니다.
@@ -67,11 +67,11 @@ USB를 다시 연결하고 게임을 종료한 후 설치기를 실행합니다.
 판단할 수 없는 파일은 그대로 보존하고 오류를 표시합니다. 백업·transaction.json·잠금 파일을 임의로 지우지 마세요.
 설치기 실행 중에는 닫기가 제한되지만 PC 종료·전원 단절 같은 중단은 다음 실행에서 확인합니다.
 
-이번 업데이트의 추가 번역
-- ABANDON HEIST → 작전 포기
-- RESTART HEIST → 작전 재시작
-- The party leader has restarted the heist! → 파티장이 작전을 재시작했습니다!
-- The party leader has abandoned the heist! → 파티장이 작전을 포기했습니다!
+이번 업데이트의 추가 번역 (게임 1.1)
+- 새로 생긴 문구 55개: 은행 강도 팩, 새 DLC 무기·설치형 방패, 커뮤니티 도전 등
+- 원문이 바뀐 문구 39개: 게이지의 상점 '구매' → '해제' 방식 변경, DLC 상품 설명 채워짐 등
+- 화면 부품 문구 15개: DLC 상점 안내, 설정 > 편의 '진동 세기', 소셜 화면 잠금 안내 등
+- 게임 중 알림 10개: 파티장 변경, 친구·파티 요청, 연결 끊김 알림
 새 빌드의 실행 스크립트에 기존 임무·가방 알림 번역을 다시 연결했습니다.
 
 번역 범위와 알려진 제한

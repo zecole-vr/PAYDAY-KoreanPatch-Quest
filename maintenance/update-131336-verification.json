@@ -1,0 +1,28 @@
+{
+  "game_build": 131336,
+  "game_version_name": "1.1",
+  "patch_version": "0.1.5",
+  "tool_build": "20261119.1",
+  "source_obb_sha256": "6d2ee4c33335e082af27e19d4de4e329e0b667c1af8cc4504b8d188ca4751833",
+  "target_obb_sha256": "1d51b3d8fa6fd73999156acbf2788efa43f0a96645e46ae887d6d5829efc8c22",
+  "source_apk_sha256": "282e0e7a43266ec4129d80a471c7e580ab9315a19bba092e8faab1de697295a4",
+  "translation": {
+    "resource_entries": 3471,
+    "stringtable_added": 55,
+    "stringtable_changed": 39,
+    "inline_updates": 15,
+    "runtime_ported": 196,
+    "runtime_new": 10,
+    "codex_review_applied": 9
+  },
+  "exe_sha256": "89bf528f94466f827f2d0b3c0ba6edd4894b0a616e95e6eac4de791c13cbe795",
+  "exe_bytes": 70482474,
+  "recipe_sha256": "b40f30047a7f0d92513d5fcdbf1f2e20d8f58813972d355e9ee6bc8c61a0a01a",
+  "payload_sha256": "08de2c86cb893c59c6e996ac00f946fda12caaee89cdc7b7c9f2ea1e7a40d647",
+  "exe_bundle_paths_verified": true,
+  "manifest_keys_same_as_0_1_4": true,
+  "exe_self_check": "PASS_REAL_WEBVIEW_UI",
+  "device_install_verified": true,
+  "device_restore_reinstall_verified": false,
+  "user_runtime_confirmation": "한글 잘 나와 (2026-11-19)"
+}

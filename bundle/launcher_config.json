@@ -11,8 +11,8 @@
   "issues": "https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/issues/new/choose",
   "adb_terms": "https://developer.android.com/studio/terms",
   "release_asset_regex": "^PAYDAY_Quest_Windows_v(\\d+\\.\\d+\\.\\d+)\\.exe$",
-  "supported_game": "0.1",
-  "version_code": 131115,
+  "supported_game": "1.1",
+  "version_code": 131336,
   "package": "com.fasttravelgames.calippo",
   "engine": "quest_patch.py",
   "manifest": "manifest.json",
@@ -23,8 +23,8 @@
   "publication": "Windows 설치기",
   "distribution": "single-exe",
   "installer_host": "windows-x64",
-  "installer_version": "0.1.4",
-  "tool_build": "20261107.11",
+  "installer_version": "0.1.5",
+  "tool_build": "20261119.1",
   "supported_models": [
     "Quest 3"
   ]

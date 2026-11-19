@@ -16,10 +16,13 @@
 같은 게임 결과 파일을 만드는 재현은 해시로 검증합니다. EXE는 빌드 시각·도구 환경에 따라 바이트가 달라질 수 있습니다.
 
 현재 기본값
-- 패치: 0.1.4 / 설치 도구: 0.1.4 / 빌드: 20261107.11
-- 태그: v0.1.4 / 자산: PAYDAY_Quest_Windows_v0.1.4.exe 및 같은 이름의 .sha256
-- 게임: Quest 3, com.fasttravelgames.calippo, 빌드 131115
-- 백업·설치 기록: LOCALAPPDATA/ZECOLE/PAYDAY_Aces_High/Quest/<serial>/131115
+- 패치: 0.1.5 / 설치 도구: 0.1.5 / 빌드: 20261119.1
+- 태그: v0.1.5 / 자산: PAYDAY_Quest_Windows_v0.1.5.exe 및 같은 이름의 .sha256
+- 게임: Quest 3, com.fasttravelgames.calippo, 게임 버전 1.1, 빌드 131336
+- 백업·설치 기록: LOCALAPPDATA/ZECOLE/PAYDAY_Aces_High/Quest/<serial>/131336
+- 통합 런처 연동: EXE 안 bundle/manifest.json · bundle/data/recipe.json · bundle/data/payload.bin 경로와
+  매니페스트 키 구성(format 1)을 유지. 릴리스는 정식(Draft·Pre-release 아님)으로 공개하고, 본문의 "- " 목록은 3줄 이내.
+  저장소 맨 위 zecole.json의 dep.value는 지원 게임 빌드 번호.
 - 원래 시험 설치기의 경로/기기 원본 suffix와 호환. 알 수 없는 기록·파일은 자동 삭제 금지.
 
 기준 템플릿
@@ -31,5 +34,6 @@
   USB/무선 중복 기기 정리, 복구 버튼이 의도하지 않은 재설치로 이어지지 않도록 처리.
 - 이 변경으로 이미 배포한 다른 게임 설치기는 수정하지 않았습니다.
 
-이번 업데이트는 PAYDAY Quest v0.1.3의 배포 설치기와 공통 UI를 재사용했습니다.
-게임 버전 검사·파일명·새 원본 해시·백업 suffix를 빌드 131115에 맞추고, 기존 빌드의 PC 백업 폴더를 보존합니다.
+이번 업데이트는 PAYDAY Quest v0.1.4의 배포 설치기와 공통 UI를 재사용했습니다.
+게임 버전 검사·파일명·새 원본 해시·백업 suffix를 빌드 131336에 맞추고, 기존 빌드(131115, 130623)의 PC 백업 폴더를 보존합니다.
+엔진의 빌드 번호 안내 문구는 매니페스트의 version_code를 읽도록 바꿔, 다음 업데이트에서 하드코딩을 고치지 않아도 됩니다.
