@@ -6,7 +6,7 @@
 제작자 · **제콜 (ZECOLE)** · [YouTube](https://www.youtube.com/@zecole)
 
 **Meta Quest 단독판 / Quest 3 / 게임 버전 1.1 (빌드 131336)**용 비공식 한국어 패치입니다.
-패치 **v0.1.5**, Windows 설치 도구 **v0.1.5 (20261119.1)**.
+패치 **v0.1.5**.
 
 ## v0.1.5 업데이트
 
@@ -16,32 +16,23 @@
 기존 임무·가방 알림은 새 실행 스크립트 구조에 맞춰 다시 적용했습니다.
 
 게임을 빌드 131336으로 업데이트한 뒤 v0.1.5를 설치해 주세요.
-게임 빌드 131115용은 [v0.1.4 릴리스](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.4), 130623용은 [v0.1.3 릴리스](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.3)에서 받을 수 있습니다.
 원본 백업과 설치 기록은 게임 빌드별 폴더에 보관합니다.
 
-## 다운로드와 설치
+## 설치
 
-[Windows 설치 EXE 다운로드 · 70.5 MB](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/download/v0.1.5/PAYDAY_Quest_Windows_v0.1.5.exe) · [v0.1.5 릴리스 및 체크섬](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/releases/tag/v0.1.5)
-
-1. EXE를 실행하고 Quest 3를 USB로 연결합니다.
-2. 헤드셋에서 USB 디버깅을 허용하고 게임을 완전히 종료합니다.
+1. [ZECOLE VR 런처](https://github.com/zecole-vr/zecole-launcher/releases/latest/download/ZECOLE_Launcher.exe)를 실행하고 왼쪽 목록에서 **PAYDAY: Aces High**를 고릅니다.
+2. Quest 3를 USB로 연결하고 헤드셋에서 USB 디버깅을 허용합니다. 게임은 완전히 종료합니다.
 3. **한글패치 설치**를 누른 뒤 완료 안내가 나올 때까지 기다립니다.
 
-설치기는 게임·패치 파일 확인, 원본 백업, 패치 생성, 전송, 결과 검증을 순서대로 처리합니다.</br>
-APK 재설치, 앱 삭제, 세이브 변경은 하지 않습니다.
-
-## 최신 버전 확인
-
-같은 EXE를 다시 실행하면 **GitHub 최신 한글패치**를 확인합니다.</br>
-최신 버전 유무를 확인하려고 EXE를 새로 받을 필요는 없습니다.</br>
-새 배포본이 있으면 다운로드 페이지를 열 수 있으며, 확인 실패 시 **다시 확인**을 누르세요.</br>
-시험판·릴리스 초안·다른 플랫폼용 파일은 제외합니다.</br>
+런처는 게임·패치 파일 확인, 원본 백업, 패치 생성, 전송, 결과 검증을 순서대로 처리합니다.</br>
+APK 재설치, 앱 삭제, 세이브 변경은 하지 않습니다.</br>
+새 한글패치 버전이 나오면 런처가 **업데이트 있음**으로 알려 주며, 같은 화면에서 설치하면 됩니다.
 
 ## 제거와 복구
 
-게임을 종료한 뒤 **제거 · 원본 복구**를 누릅니다. 원본 백업과 세이브 진행 상황은 유지됩니다.</br>
-EXE를 옮기거나 다시 받아도 사용자 앱 데이터에 보관한 백업·설치 기록을 이어서 사용합니다.</br>
-USB 분리나 PC 종료로 중단되면 다음 실행에서 **중단된 작업 복구**를 확인해 주세요.</br>
+게임을 종료한 뒤 런처의 PAYDAY 화면에서 **원본 복구**를 누릅니다. 원본 백업과 세이브 진행 상황은 유지됩니다.</br>
+예전 설치기 EXE로 설치했어도 런처가 사용자 앱 데이터에 보관한 백업·설치 기록을 이어서 사용합니다.</br>
+USB 분리나 PC 종료로 중단되면 다시 연결하고 런처에서 다시 실행해 주세요.</br>
 판단할 수 없는 파일은 자동으로 덮어쓰지 않습니다.
 
 ## 필수 환경
@@ -51,8 +42,7 @@ USB 분리나 PC 종료로 중단되면 다음 실행에서 **중단된 작업 �
 - 첫 설치 시 PC 약 9 GiB / Quest 4.2 GiB 이상 여유 공간
 - 최초 ADB 준비와 최신 버전 확인을 위한 인터넷 연결
 
-Python은 EXE에 포함됩니다. </br>ADB가 없으면 약관 동의 후 Google 공식 Platform Tools 37.0.0을
-다운로드하고 체크섬을 검증합니다. </br>이미 준비된 연결 도구·동의는 재사용합니다.
+ADB가 없으면 약관 동의 후 Google 공식 Platform Tools를 다운로드하고 체크섬을 검증합니다.
 
 ## 포함 범위와 제한
 
@@ -63,7 +53,7 @@ Python은 EXE에 포함됩니다. </br>ADB가 없으면 약관 동의 후 Google
 다른 게임 빌드, Steam/PCVR, Android 휴대폰 설치 및 Quest 3 이외 기기는 지원하지 않습니다.</br>
 게임 업데이트 후 호환성은 별도로 확인해야 합니다. 업데이트 전에 원본 복구를 권장합니다.</br>
 
-[상세 설치·복구 안내](bundle/README.txt) · [버그 제보 / 수정 요청](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/issues/new/choose)
+[버그 제보 / 수정 요청](https://github.com/zecole-vr/PAYDAY-KoreanPatch-Quest/issues/new/choose)
 
 ## 출처
 
